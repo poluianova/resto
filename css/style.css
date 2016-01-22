@@ -1,8 +1,31 @@
 body{
-
+font: 400 14px/1.87 'Aleo', Arial, sans-serif;
 }
 
 /* Typography */
+a {
+text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+h1 {
+	font-size: 100px;
+	letter-spacing: -9px;
+	line-height: 1;
+	font-family: WCManoNegraBta;
+	font-weight: 400;
+}
+h2 {
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+h3 {
+	font-size: 16px;
+	letter-spacing: 0.8px;
+	color:  #555555;
+
+}
 a,
 input[type="submit"],
 input[type="button"],
@@ -54,4 +77,334 @@ textarea {
 .ba-container{
 	padding-left: 20px;
 	padding-right: 20px;
+	max-width: 1140px;
+}
+.ba-header {
+	padding: 25px 0 28px;
+}
+.ba-logo {
+	line-height: 60px;
+	text-align: center;
+}
+.ba-logo img {
+	vertical-align: middle;
+}
+.ba-menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.ba-menu a {
+	letter-spacing: 0.84px;
+	color:  #3b3b3b;
+}
+.ba-menu li {
+	display: inline-block;
+	padding-right: 46px;
+	line-height: 60px;
+}
+.ba-menu li:last-child {
+	padding-right: 0;
+}
+.ba-menu li:hover a {
+	color: #F34949;
+}
+.ba-banner {
+	background: #2B2B2B url(../img/banner.jpg) no-repeat 50%;
+	background-size: cover;
+	position: relative;
+	padding: 225px 0 205px;
+	text-align: center;
+	color: #ffffff;
+	border-bottom: 4px solid #f34949;
+}
+.ba-banner:after {
+	content: "";
+	background-color: rgba(43, 43, 43, 0.839);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.ba-banner__content {
+	margin: 0;
+	position: relative;
+	z-index: 2;
+}
+.ba-banner__title {
+	padding-bottom: 14px;
+}
+.ba-banner__text {
+	display: inline-block;
+	font-size: 16px;
+	line-height: 1;
+	letter-spacing: 0.64px;
+	margin: 0;
+	position: relative;
+}
+.ba-banner__text:before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: -65px;
+  	background-color: #fff;
+	height: 1px;
+	width: 40px;
+}
+.ba-banner__text:after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: -65px;
+  	background-color: #fff;
+	height: 1px;
+	width: 40px;
+}
+.ba-dishes {
+	position: relative;
+	text-align: center;
+	padding-bottom: 100px;
+}
+.ba-dishes__menu {
+	position: absolute;
+	top: -4px;
+	left: calc(50% - 77.5px);
+	background-color:  #f34949;
+	width: 155px;
+	height: 75px;
+	text-align: center;
+	position: relative;
+	margin-bottom: 56px;
+}
+.ba-dishes__menu:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+    border: 77.5px solid transparent;
+    border-bottom: 10px solid #fff;
+}
+.ba-dishes__title {
+	color: #fff;
+	line-height: 65px;
+}
+.ba_dishes__list {
+	list-style-type: none;
+	padding: 0;
+	margin-bottom: 90px;
+	text-align: left;
+}
+.ba-width-1-2:first-child .ba_dishes__list {
+	margin-right: 59px;
+}
+.ba-width-1-2:last-child .ba_dishes__list {
+	margin-left: 59px;
+}
+.ba_dishes__list li {
+	margin-bottom: 55px;
+	position: relative;
+}
+.ba-list__title {
+	display:inline-block;
+	background-color: #FFF;
+	font-weight: 400;
+	line-height: 1;
+	padding-bottom: 8px;
+	padding-right: 46px;
+	position: relative;
+	z-index: 2;
+}
+.ba-list__text {
+	color: #b7b7b7;
+	font-size: 12px;
+	font-weight: 300;
+	font-style: italic;
+	line-height: 1;
+	letter-spacing: 0.6px;
+	margin: 0;
+}
+.ba-list__price {
+	font-size: 16px;
+	color:  #555555;
+	top: 0;
+	right: 0;
+	position: absolute;
+
+}
+.ba-list__line {
+	margin: 0;
+	position: relative;
+}
+.ba-list__line:after {
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: calc(100% - 70px);
+	background-color: #e3e1e1;
+	top: 50%;
+	left: 0;
+}
+.ba-dishes__load {
+	display: inline-block;
+	border: 1px solid #d7d5d5;
+	min-height: 34px;
+	letter-spacing: 0.98px;
+	color: #b7b7b7;
+	font-size: 14px;
+	padding: 0 4px 0 12px;
+	line-height: 34px;
+	margin: 0 auto;
+}
+.ba-dishes__load:hover {
+	color: #F34949;
+}
+pre {
+	margin: 0;
+}
+.ba-featured {
+	padding: 87px 0;
+}
+.ba-featured .ba-grid {
+	margin-left: -60px;
+}
+.ba-featured .ba-width-1-4 {
+	padding-left: 60px;
+}
+.ba-section__title {
+	display: inline-block;
+	text-transform: uppercase;
+	line-height: 1;
+	color:  #3b3b3b;
+	margin: 0 19px 80px 0;
+	position: relative;
+}
+.ba-section__title:after {
+	content: "";
+	position: absolute;
+	background-color: #e5e3e3;
+	width: 200px;
+	height: 1px;
+	top: 50%;
+	left: calc(100% + 19px);
+}
+.ba-dishes__description {
+	position: relative;
+	margin-top: 10px;
+	color: #555555;
+}
+.ba-featured__title {
+	display: inline-block;
+	}
+.ba-featured__price {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 16px;
+}
+i.active {
+	color: #F1DF1A;
+}
+.ba-featured__rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: left;
+}
+.ba-featured__rating > i {
+  display: inline-block;
+  position: relative;
+  width: 13px;
+  height: 13px;
+  margin-right: 3px;
+}
+.ba-featured__rating > i:hover:before,
+.ba-featured__rating > i:hover ~ i:before {
+   content: "\2605";
+   position: absolute;
+   color: #F1DF1A;
+   top: 0;
+   left: 0;
+   width: 13px;
+   height: 13px;
+}
+.ba-next__circle {
+	float: right;
+	display: block;
+	border-radius: 50%;
+	background-color: #dedede;
+	width: 9px;
+	height: 9px;
+	margin-left: 10px;
+	margin-top: 2px;
+}
+.ba-next__circle--active, .ba-next__circle:hover {
+	background-color: #9b9b9b;
+}
+.ba-gallery {
+	padding: 102px 0 200px;
+}
+.ba-gallery img {
+	display: block;
+	width: 100%;
+}
+.ba-footer {
+	background-color: #3b3b3b;
+	padding: 90px 0;
+}
+.ba-footer .ba-width-1-4 {
+	padding-left: 60px;
+}
+.ba-footer .ba-grid {
+	margin-left: -60px;
+}
+.ba-footer__restaurant {
+	color: #ebebeb;
+	letter-spacing: 0.8px;
+	line-height: 30px;
+}
+.ba-footer__restaurant h3 {
+	font-weight: 400;
+	color: #fff;
+}
+.ba-footer__restaurant address {
+	font-weight: 300;
+	font-size: 16px;
+}
+.ba-footer__restaurant .tel {
+	color:  #ebebeb;
+	font-size: 16px;
+	font-weight: 700;
+}
+.ba-footer__restaurant .tel:hover {
+	color: #F34949;
+}
+.ba-footer__links {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.ba-footer__links li {
+	line-height: 35px;
+}
+.ba-footer__links a {
+	color: #fff;
+	display: inline-block;
+	font-size: 16px;
+	letter-spacing: 0.8px;
+	line-height: 30px;
+}
+.ba-footer__links a:hover {
+	color: #F34949;
+}
+.ba-logo--white {
+	display: block;
+	line-height: 60px;
+}
+.ba-footer__copyright {
+	color:  #ececec;
+	font-weight: 300;
+	letter-spacing: 0.7px;
+	margin: 0;
+	line-height: 30px;
 }
