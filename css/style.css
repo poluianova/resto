@@ -408,3 +408,11 @@ i.active {
 	margin: 0;
 	line-height: 30px;
 }
+.ba-footer__copyright a {
+	font-size: inherit;
+	color: inherit;
+	font-weight: 700;
+}
+.ba-footer__copyright a:hover {
+	color: #F34949;
+}
